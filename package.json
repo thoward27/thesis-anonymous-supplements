@@ -1,7 +1,7 @@
 {
-  "name": "my-blog",
+  "name": "aa-supplement",
   "version": "1.0.0",
-  "description": "My blog",
+  "description": "Supplement: Using a Digital Application to Refresh Knowledge of Abuse for Individuals with Intellectual/Developmental Disabilities",
   "scripts": {
     "build-dev:webpack": "webpack",
     "watch:webpack": "webpack --watch",
