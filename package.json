@@ -63,5 +63,8 @@
     "*.json": [
       "prettier --write"
     ]
+  },
+  "dependencies": {
+    "flickity": "^2.2.2"
   }
 }
