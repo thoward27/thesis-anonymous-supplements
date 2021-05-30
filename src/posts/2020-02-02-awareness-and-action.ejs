@@ -3,7 +3,7 @@ title: 'Design Concept Vignettes'
 description: Images and clips from the HTML prototype.
 date: 2021-03-26T00:00:00Z
 ---
-
+<% require('flickity'); %>
 <div>
     <h2>Video-based Learning Material</h2>
     <div class="main-carousel" data-flickity='{"autoPlay":true}'>
@@ -37,3 +37,18 @@ date: 2021-03-26T00:00:00Z
         <img src="/assets/images/posts/vp.gif" alt="motivation gif">
     </div>
 </div>
+
+<script>
+    var elem = document.querySelector('.main-carousel');
+var flkty = new Flickity( elem, {
+  // options
+  cellAlign: 'left',
+  contain: true
+});
+
+// element argument can be a selector string
+//   for an individual element
+var flkty = new Flickity( '.main-carousel', {
+  // options
+});
+</script>
