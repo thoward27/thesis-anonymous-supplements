@@ -3,7 +3,6 @@ title: 'Design Concept Vignettes'
 description: Images and clips from the HTML prototype.
 date: 2021-03-26T00:00:00Z
 ---
-<% require('flickity'); %>
 <div>
     <h2>Video-based Learning Material</h2>
     <div class="main-carousel" data-flickity='{"autoPlay":true}'>
@@ -38,11 +37,4 @@ date: 2021-03-26T00:00:00Z
     </div>
 </div>
 
-<script>
-    var elem = document.querySelector('.main-carousel');
-    var flkty = new Flickity( elem, {
-        // options
-        cellAlign: 'left',
-        contain: true
-    });
-</script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
